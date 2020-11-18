@@ -28,6 +28,6 @@ db.once('open', ()=> console.log('connected to mongoose'))
 
 
 
-app.use('/',indexRouter)                //router index
+app.use('/',indexRouter)                //router indexs
 
 app.listen(process.env.PORT || 3000)
